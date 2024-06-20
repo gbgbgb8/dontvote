@@ -31,8 +31,8 @@ function showQuestion() {
         questionContainer.classList.remove('fade-out');
         questionContainer.classList.add('fade-in');
         questionText.textContent = question.text;
-        document.getElementById('trump-note').textContent = "Trump: " + question.trumpNote;
-        document.getElementById('biden-note').textContent = "Biden: " + question.bidenNote;
+        document.getElementById('trump-note').textContent = "Candidate C1: " + question.trumpNote;
+        document.getElementById('biden-note').textContent = "Candidate C2: " + question.bidenNote;
     } else {
         showResult();
     }
