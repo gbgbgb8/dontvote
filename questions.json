@@ -3,47 +3,65 @@
       {
         "id": 1,
         "text": "The federal government should eliminate national abortion laws, returning authority to individual states.",
-        "yesSupports": 1
+        "yesSupports": 1,
+        "trumpNote": "States should decide. Roe v. Wade was wrongly decided.",
+        "bidenNote": "Supports federal protection of abortion rights."
       },
       {
         "id": 2,
         "text": "Immigration policies should be reformed to provide easier pathways for skilled workers and graduates of U.S. colleges.",
-        "yesSupports": 2
+        "yesSupports": 2,
+        "trumpNote": "Prioritize American workers. Tighten immigration.",
+        "bidenNote": "Support easier paths for skilled immigrants and graduates."
       },
       {
         "id": 3,
         "text": "The U.S. should prioritize diplomacy and avoid further NATO expansion to reduce tensions with Russia.",
-        "yesSupports": 1
+        "yesSupports": 1,
+        "trumpNote": "NATO members should pay their fair share. Avoid provoking Russia.",
+        "bidenNote": "Strengthen NATO alliances. Stand firm against Russian aggression."
       },
       {
         "id": 4,
         "text": "The government should implement a universal healthcare system, replacing the current private insurance model.",
-        "yesSupports": 2
+        "yesSupports": 2,
+        "trumpNote": "Free market healthcare. Repeal and replace Obamacare.",
+        "bidenNote": "Expand Affordable Care Act. Add public option."
       },
       {
         "id": 5,
         "text": "Climate change should be addressed through strict regulations on industries and significant investment in renewable energy.",
-        "yesSupports": 2
+        "yesSupports": 2,
+        "trumpNote": "Regulations hurt business. Climate change concerns exaggerated.",
+        "bidenNote": "Rejoin Paris Agreement. Invest in clean energy."
       },
       {
         "id": 6,
         "text": "The Second Amendment right to bear arms should be protected, with minimal federal restrictions on gun ownership.",
-        "yesSupports": 1
+        "yesSupports": 1,
+        "trumpNote": "Strongly support 2nd Amendment rights. Oppose new gun control.",
+        "bidenNote": "Support 2nd Amendment, but with 'common sense' gun laws."
       },
       {
         "id": 7,
         "text": "The federal minimum wage should be significantly increased to keep pace with the cost of living.",
-        "yesSupports": 2
+        "yesSupports": 2,
+        "trumpNote": "Let states decide. Federal increase could hurt small businesses.",
+        "bidenNote": "Support gradual increase to $15/hour federal minimum wage."
       },
       {
         "id": 8,
         "text": "The government should increase funding for law enforcement and take a tougher stance on crime.",
-        "yesSupports": 1
+        "yesSupports": 1,
+        "trumpNote": "Back the Blue. Tough on crime and illegal immigration.",
+        "bidenNote": "Reform, don't defund police. Address systemic racism."
       },
       {
         "id": 9,
         "text": "Corporate tax rates should be lowered to stimulate economic growth and job creation.",
-        "yesSupports": 1
+        "yesSupports": 1,
+        "trumpNote": "Lower taxes create jobs and economic growth.",
+        "bidenNote": "Corporations should pay their fair share. Raise corporate tax rate."
       }
     ]
   }

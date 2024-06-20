@@ -40,3 +40,9 @@ button {
     opacity: 1;
     transition: opacity 0.5s ease-in;
 }
+
+.candidate-note {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 0.5em 0;
+}

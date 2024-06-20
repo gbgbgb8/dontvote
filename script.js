@@ -27,9 +27,12 @@ function shuffleArray(array) {
 
 function showQuestion() {
     if (currentQuestionIndex < questions.length) {
+        const question = questions[currentQuestionIndex];
         questionContainer.classList.remove('fade-out');
         questionContainer.classList.add('fade-in');
-        questionText.textContent = questions[currentQuestionIndex].text;
+        questionText.textContent = question.text;
+        document.getElementById('trump-note').textContent = "Trump: " + question.trumpNote;
+        document.getElementById('biden-note').textContent = "Biden: " + question.bidenNote;
     } else {
         showResult();
     }
