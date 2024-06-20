@@ -58,9 +58,9 @@ function showResult() {
     resultContainer.style.display = 'block';
     
     if (candidate1Score > candidate2Score) {
-        resultText.textContent = "You align more closely with Candidate 1";
+        resultText.textContent = "You align more closely with Trump";
     } else if (candidate2Score > candidate1Score) {
-        resultText.textContent = "You align more closely with Candidate 2";
+        resultText.textContent = "You align more closely with Biden";
     } else {
         resultText.textContent = "You align equally with both candidates";
     }
