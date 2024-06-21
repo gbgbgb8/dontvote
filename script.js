@@ -60,8 +60,8 @@ function updateProgressBar() {
 
 function handleAnswer(answer) {
     const question = questions[currentQuestionIndex];
-    if ((answer === 'yes' && question.yesSupports === 1) || 
-        (answer === 'no' && question.yesSupports === 2)) {
+    if ((answer === 'C1' && question.yesSupports === 1) || 
+        (answer === 'C2' && question.yesSupports === 2)) {
         candidate1Score++;
     } else {
         candidate2Score++;
