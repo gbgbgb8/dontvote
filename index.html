@@ -9,16 +9,25 @@
 <body>
     <div id="app">
         <h1>Presidential Candidate Survey</h1>
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
         <div id="question-container">
             <p id="question-text"></p>
-            <p id="trump-note" class="candidate-note"></p>
-            <p id="biden-note" class="candidate-note"></p>
-            <button id="yes-btn">Yes</button>
-            <button id="no-btn">No</button>
+            <div id="candidate-notes">
+                <p id="trump-note" class="candidate-note"></p>
+                <p id="biden-note" class="candidate-note"></p>
+            </div>
+            <div id="button-container">
+                <button id="yes-btn">Yes</button>
+                <button id="no-btn">No</button>
+            </div>
         </div>
         <div id="result-container" style="display: none;">
             <h2>Survey Results</h2>
             <p id="result-text"></p>
+            <div id="score-breakdown"></div>
+            <button id="restart-btn">Restart Survey</button>
         </div>
     </div>
     <script src="script.js"></script>
